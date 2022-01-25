@@ -79,8 +79,26 @@
     <li>2-3-4-5-6-7-8-9-15</li>
 </ol>
 </p>
+************************************************************************************************************************************ <br>
+<h3> Merge Sort Projesi </h3>
+<h4>Proje 2 </h4>
+<p style="text-align: center;"> [16,21,11,8,12,22] -> Merge Sort
 
-
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.</p>
+<br>
+<p>16-21-11-8-12-22 dizisini iki gruba ayıralım tek gruba indirgeyene kadar parçalayalım
+    <ol>
+        <li>16-21-11 ***** 8-12-22</li>
+        <li>16-21 ***** 11 ***** 8-12 ***** 22</li>
+        <li>16 *****21 ***** 11 ***** 8 *****12 ***** 22</li>
+        <li>Şimdi de birleştirme işlemi yapalım ikili yapmaktan başlayarak ikisini karşılaştırıp küçük olan başa yazılır</li>
+        <li>16-21****11****8-12****22</li>
+        <li>11-16-21 **** 8-12-22</li>
+        <li>8-11-12-16-21-22</li>
+    </ol>
+</p>
+<p><b>Big-O Gösterim : On(logn)</b></p>
 </body>
 
 </html>
